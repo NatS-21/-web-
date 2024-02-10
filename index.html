@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post</title>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <main>
+        <div class="post">
+          <div class="post-content">
+            <span class="author-nickname">Jack</span>
+            <span class="post-text">Hello world!</span>
+          </div>
+          <form id="comment-form">
+            <input id="comment-text" name="comment" required placeholder="Your Comment"></input>
+            <button type="submit"><img src="assets/icons/paperplane.svg" class="send-comment-img"></button>
+          </form>
+          <div class="comments-container"></div>
+        </div>
+      </main>
+  </body>
+  <script src="scripts/comments.js"></script>
+</html>
